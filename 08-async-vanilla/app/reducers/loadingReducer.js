@@ -1,8 +1,8 @@
 import * as types from '../constants/constant'
 
-function reducer(state = 'dashtinejad', action) {
+function reducer(state = false, action) {
   switch (action.type) {
-    case types.NAME_SET:
+    case types.LOADING_SET:
       return action.payload
       
     default:
