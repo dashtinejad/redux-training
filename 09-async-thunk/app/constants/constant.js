@@ -1,0 +1,5 @@
+export const INCREMENT = 'INCREMENT'
+export const DECREMENT = 'DECREMENT'
+export const NAME_SET = 'NAME_SET'
+export const LOADING_SET = 'LOADING_SET'
+export const PROFILE_SET = 'PROFILE_SET'
