@@ -71,8 +71,8 @@ module.exports = {
 Now create your `index.js` file which is your starting app js file:
 
 ```
-const NAME = 'Hello World'
-console.log(NAME)
+const NAME = '<h1>Hello JavaScript</h1>'
+document.body.innerHTML = NAME
 ```
 
 
