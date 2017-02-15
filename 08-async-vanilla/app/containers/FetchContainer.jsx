@@ -6,8 +6,6 @@ import { setLoading, setProfile } from '../actions/action'
 import Fetch from '../components/Fetch'
 
 const mapStateToProps = (state) => ({
-  label: 'Fetch',
-  name: state.name,
   loading: state.loading,
   profile: state.profile
 })

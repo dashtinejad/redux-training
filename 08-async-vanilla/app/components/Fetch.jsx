@@ -4,10 +4,7 @@ class Fetch extends React.Component {
   render() {
     return (
       <div>
-        <button type="button"
-          name={this.props.name}
-          onClick={this.props.onClick}
-        >{this.props.label}</button>
+        <button type="button" onClick={this.props.onClick}>Fetch</button>
 
         {this.props.loading && 'Loading'}
 
